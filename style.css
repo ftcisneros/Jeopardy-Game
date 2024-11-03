@@ -1,0 +1,12 @@
+/* Image centering */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Homepage styling */
+.homepage {
+    background-color: #3838c9;
+}
