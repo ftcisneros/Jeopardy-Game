@@ -14,7 +14,7 @@
     margin-top: 50px;
 }
 
-/* Homepage styling */
+/* Homepage */
 .homepage {
     background-color: #3636cf;
 }
@@ -23,8 +23,8 @@
     margin-top: 150px;
 }
 
-/* Login button */
-.login-button {
+/* Buttons */
+.button {
     text-align: center;
     border: 2px solid #7373ce;
     border-radius: 15px;
@@ -33,7 +33,7 @@
     box-shadow: 5px 5px 10px #04042f;
 }
 
-.login-button p {
+.button p {
     font-weight: bold;
     font-size: 20px;
     color: #FFFFFF;
