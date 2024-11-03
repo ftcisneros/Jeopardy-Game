@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
 /* Image centering */
 .center {
     display: block;
@@ -6,11 +10,31 @@
     width: 50%;
 }
 
+.container {
+    margin-top: 50px;
+}
+
 /* Homepage styling */
 .homepage {
-    background-color: #3838c9;
+    background-color: #3636cf;
 }
 
 .homepage-logo {
     margin-top: 150px;
+}
+
+/* Login button */
+.login-button {
+    text-align: center;
+    border: 2px solid #7373ce;
+    border-radius: 15px;
+    background-image: radial-gradient(#c4c4f1, #6b6bd7, #0d0daf);
+    width: 25%;
+    box-shadow: 5px 5px 10px #04042f;
+}
+
+.login-button p {
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
 }
