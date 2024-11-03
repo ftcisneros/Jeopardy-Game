@@ -1,2 +1,2 @@
-# Wheel-of-Fortune
-The classic Wheel of Fortune game designed with HTML, CSS, and PHP
+# Jeopardy-Game
+A web-based Jeopardy game designed with HTML, CSS, and PHP
