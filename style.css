@@ -11,7 +11,10 @@
 }
 
 .container {
-    margin-top: 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 /* Homepage */
@@ -29,12 +32,17 @@
     border: 2px solid #7373ce;
     border-radius: 15px;
     background-image: radial-gradient(#c4c4f1, #6b6bd7, #0d0daf);
-    width: 25%;
+    width: 15%;
     box-shadow: 5px 5px 10px #04042f;
 }
 
-.button p {
+.button a {
     font-weight: bold;
     font-size: 20px;
     color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button a:hover {
+    color: #FFD700;
 }
