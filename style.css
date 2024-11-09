@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Image centering */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* Homepage */
+.homepage {
+    background-color: #3636cf;
+}
+
+.homepage-logo {
+    margin-top: 150px;
+}
+
+/* Buttons */
+.button {
+    text-align: center;
+    border: 2px solid #7373ce;
+    border-radius: 15px;
+    background-image: radial-gradient(#c4c4f1, #6b6bd7, #0d0daf);
+    width: 15%;
+    box-shadow: 5px 5px 10px #04042f;
+}
+
+.button a {
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button a:hover {
+    color: #FFD700;
+}
