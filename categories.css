@@ -6,10 +6,11 @@ body {
     background-color: #3636cf;
 }
 
-/* Image centering */
-.center {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
 }
