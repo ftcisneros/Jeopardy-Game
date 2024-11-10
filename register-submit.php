@@ -3,9 +3,8 @@
     session_start();
     $score = 0;
     $dataPush = array(
-        'UserName' => $_POST['Username'],
+        'Username' => $_POST['Username'],
         'Password' =>  $_POST['Password'],
-        'Score' => $score
     );
 
     $handle = fopen("registered.txt", "a+");
@@ -14,7 +13,7 @@
         while (!feof($handle)){
             $line = fgets($handle);
             $str_arr = preg_split("/\,/", $line);
-            if ($str_arr[0] == $dataPush['UserName']) {
+            if ($str_arr[0] == $dataPush['Username']) {
                 $isValid = true;    
             }
         }

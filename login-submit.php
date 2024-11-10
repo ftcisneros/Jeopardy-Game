@@ -30,11 +30,9 @@
         $_SESSION['loginFail'] = TRUE;
         $_SESSION['errorMessage'] = 'Invalid username or password.';
         header("Location: login.php");
-        
     }
     else{
-
-        header("Location: categories.php"); //page to go to when successful login
+        header("Location: categories.php");
     }
     ?>
     </body>

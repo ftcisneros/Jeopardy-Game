@@ -83,13 +83,13 @@
       <h1><?php echo $data[1]?></h1>
    
     <form method="post">
-        <div class="">
+        <div class="question-container">
             <h2> <?php echo $data[2] ?> <input type="radio" name="ans" value="2" /> </h2>
             <h2> <?php echo $data[3] ?> <input type="radio" name="ans" value="3" /> </h2>
             <h2> <?php echo $data[4] ?> <input type="radio" name="ans" value="4" /> </h2>
             <h2> <?php echo $data[5] ?> <input type="radio" name="ans" value="5" /> </h2>
          </div>
-         <input type="submit" value="Submit" class="" />
+         <input type="submit" value="Submit" class="button" />
     </form>
     </div>
 </body>

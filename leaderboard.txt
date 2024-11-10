@@ -1,0 +1,5 @@
+username 200
+user2 -800
+username 1000
+user2 1000
+username 0
