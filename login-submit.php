@@ -19,7 +19,8 @@
         }
         else{
             if($_POST['Username'] == $users[$i][0] && $_POST['Password'] == $users[$i][1]){
-                $_SESSION["Points"] = $users[$i][2];
+                $_SESSION['player'] = $users[$i][0];
+                $_SESSION['points'] = $users[$i][2];
                 $loginFailed = FALSE;
             }
         }
@@ -33,7 +34,7 @@
     }
     else{
 
-        header("Location: test.php"); //page to go to when successful login
+        header("Location: categories.php"); //page to go to when successful login
     }
     ?>
     </body>
