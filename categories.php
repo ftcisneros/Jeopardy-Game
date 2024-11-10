@@ -89,32 +89,15 @@
     <div class="scoreboard-container">
         <table class="scoreboard">
             <tr>
-                <th>PLAYER 1</th>
+                <th>Current Score</th>
             </tr>
+            
             <tr>
                 <td>
                 <?php
                     echo '$'. $totalPoint; 
                 ?>
                 </td>
-            </tr>
-        </table>
-    
-        <table class="scoreboard">
-            <tr>
-                <th>PLAYER 2</th>
-            </tr>
-            <tr>
-                <td>$0</td>
-            </tr>
-        </table>
-    
-        <table class="scoreboard">
-            <tr>
-                <th>PLAYER 3</th>
-            </tr>
-            <tr>
-                <td>$0</td>
             </tr>
         </table>
     </div>
