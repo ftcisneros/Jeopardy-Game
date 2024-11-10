@@ -50,10 +50,35 @@ img {
 
 /* Scoreboard styling */
 
+.scoreboard-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .scoreboard {
+    width: 150px;
     border: 1px solid #04042f;
+    border-collapse: collapse; 
+    text-align: center;
 }
 
 .scoreboard th {
-    background-color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    color: #3636cf;
+    height: 30px;
+}
+
+.scoreboard td {
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFD700;
+    text-shadow: 2px 2px 4px #04042f;
+    height: 45px;
+}
+
+.scoreboard tr:nth-child(odd) {
+    background-color: #dddddd;
 }
