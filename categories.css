@@ -48,6 +48,19 @@ img {
     background-image: linear-gradient(#2727b4, #0d0daf);
 }
 
+.gameboard td a:link {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.gameboard td a:hover {
+    font-size: 55px;
+}
+
+.gameboard td a:visited {
+    color: #8B8000;
+}
+
 /* Scoreboard styling */
 
 .scoreboard-container {
@@ -81,4 +94,14 @@ img {
 
 .scoreboard tr:nth-child(odd) {
     background-color: #dddddd;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: white;
 }

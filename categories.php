@@ -32,12 +32,12 @@
     }
     ?>
 
-    <h1> <?php echo $pluspts ?></h1>
-    <h1> <?php echo $minuspts ?></h1>
+    <h1><?php echo $pluspts ?></h1>
+    <h1><?php echo $minuspts ?></h1>
 
     <?php 
     if ( isset($_GET['answered'])){
-        echo "<h3 class='answered'> Question has already been answered </h3>";
+        echo "<h2> Question has already been answered </h2>";
     }
     ?>
 

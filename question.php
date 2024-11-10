@@ -19,15 +19,8 @@
         '$1000' => 1000,
     ];
 
-    $data = array(
-        "1",                // Question ID 
-        "Question Text",    // Question
-        "ans1",             // Answer 1
-        "ans2",             // Answer 2
-        "ans3",             // Answer 3
-        "ans4",             // Answer 4
-        "3",                // Correct answer position
-    );
+    $data = array("1", "Question Text", "ans", "ans", "ans", "ans", "3",);
+        // (Question ID, Question, Answer 1, Answer 2, Answer 3, Answer 4, Correct answer position)
 
     $parameter = $_SERVER['QUERY_STRING'];
     session_start();
