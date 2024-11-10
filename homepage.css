@@ -45,3 +45,15 @@ body {
 .button a:hover {
     color: #FFD700;
 }
+
+a:hover {
+    font-weight: bold;
+}
+  
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: grey;
+}
