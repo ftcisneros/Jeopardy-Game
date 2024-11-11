@@ -20,7 +20,6 @@
         else{
             if($_POST['Username'] == $users[$i][0] && $_POST['Password'] == $users[$i][1]){
                 $_SESSION['player'] = $users[$i][0];
-                $_SESSION['points'] = $users[$i][2];
                 $loginFailed = FALSE;
             }
         }
