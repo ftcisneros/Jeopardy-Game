@@ -1,27 +1,27 @@
 //layout
 //question number, question, ans1,ans2,ans3,ans4,The position of the correct Answer. 
-1,This actor played Spider-Man in the 2017 movie Spider-Man: Homecoming,Who is Tom Holland?,Who is Andrew Garfield?,Who is Tobey Maguire?,Who is Jake Gyllenhaal?,2,$200
-2,This popular TV show features a group of kids battling monsters in a small town in the 1980s,What is The Umbrella Academy?,What is Stranger Things?,What is Euphoria?,What is Riverdale?,3,$400
-3,This singer is known for her hit songs Bad Guy and Happier Than Ever,Who is Billie Eilish?,Who is Ariana Grande?,Who is Olivia Rodrigo?,Who is Selena Gomez?,2,$600
-4,This animated movie franchise features a lovable ogre named Shrek,What is Frozen?,What is Shrek?,What is Moana?,What is Zootopia?,3,$800
-5,This video game franchise follows a plumber on his adventures to save Princess Peach,What is Minecraft?,What is Call of Duty?,What is Super Mario?,What is Fortnite?,4,$1000
-6,This social media platform is known for short viral video clips and dance challenges,What is Instagram?,What is Snapchat?,What is TikTok?,What is Twitter?,4,$200
-7,This company is the maker of the iPhone,What is Samsung?,What is Microsoft?,What is Apple?,What is Google?,4,$400
-8,This virtual assistant by Amazon can help you shop and play music,What is Siri?,What is Cortana?,What is Alexa?,What is Google Assistant?,4,$600
-9,This social media app is famous for its disappearing messages,What is Facebook?,What is WhatsApp?,What is TikTok?,What is Snapchat?,5,$800
-10,This video streaming platform is home to shows like Stranger Things and The Witcher,What is Hulu?,What is YouTube?,What is Netflix?,What is Disney+?,4,$1000
-11,This video game franchise features sports and was originally created by EA Sports,What is FIFA?,What is NBA 2K?,What is Madden NFL?,What is Tony Hawk's Pro Skater?,4,$200
-12,This team won the 2023 NBA Championship,What is the Boston Celtics?,What is the Miami Heat?,What is the Denver Nuggets?,What is the Golden State Warriors?,4,$400
-13,This football player is known for his legendary career with the New England Patriots,Who is Tom Brady?,Who is Patrick Mahomes?,Who is Joe Burrow?,Who is Aaron Rodgers?,2,$600
-14,This Fortnite skin became one of the most popular during Chapter 2,What is Jonesy?,What is Peely?,What is Midas?,What is Marshmello?,3,$800
-15,This team won the 2022 FIFA World Cup,What is Brazil?,What is France?,What is Argentina?,What is Germany?,4,$1000
-16,This planet is the closest to the Sun,What is Venus?,What is Earth?,What is Mercury?,What is Mars?,2,$200
-17,This element is the most abundant gas in Earth's atmosphere,What is Oxygen?,What is Nitrogen?,What is Hydrogen?,What is Carbon Dioxide?,3,$400
-18,This space mission was the first to land humans on the Moon,What is Apollo 11?,What is Apollo 13?,What is Apollo 17?,What is Gemini 8?,2,$600
-19,This is the smallest bone in the human body,What is the femur?,What is the tibia?,What is the stapes?,What is the radius?,4,$800
-20,This planet has the most moons in our solar system,What is Mars?,What is Jupiter?,What is Saturn?,What is Uranus?,4,$1000
-21,This fast food chain is known for its golden arches,What is Burger King?,What is McDonald's?,What is Wendy's?,What is Taco Bell?,3,$200
-22,This popular soda brand features a red logo and the tagline "Taste the Feeling",What is Pepsi?,What is Sprite?,What is Fanta?,What is Coca-Cola?,5,$400
-23,This type of sushi is typically served with raw fish on top of vinegared rice,What is Tempura?,What is Sashimi?,What is Nigiri?,What is Maki?,4,$600
-24,The famous dessert Crème brûlée originates from which country?,What is France?,What is Italy?,What is Spain?,What is Brazil?,2,$800
-25,This fruit is known for being high in vitamin C and is typically eaten as a breakfast food,What is an apple?,What is a mango?,What is a banana?,What is an orange?,5,$1000
+1,This actor played Spider-Man in the 2017 movie Spider-Man: Homecoming.,Who is Tom Holland?,Who is Andrew Garfield?,Who is Tobey Maguire?,Who is Jake Gyllenhaal?,2,$200
+2,This popular TV show features a group of kids battling monsters in a small town in the 1980s.,What is The Umbrella Academy?,What is Stranger Things?,What is Euphoria?,What is Riverdale?,3,$400
+3,This singer is known for her hit songs Bad Guy and Happier Than Ever.,Who is Billie Eilish?,Who is Ariana Grande?,Who is Olivia Rodrigo?,Who is Selena Gomez?,2,$600
+4,This animated movie franchise features a lovable ogre.,What is Frozen?,What is Shrek?,What is Moana?,What is Zootopia?,3,$800
+5,This video game franchise follows a plumber on his adventures to save Princess Peach.,What is Minecraft?,What is Call of Duty?,What is Super Mario?,What is Fortnite?,4,$1000
+6,This social media platform is known for short viral video clips and dance challenges.,What is Instagram?,What is Snapchat?,What is TikTok?,What is Twitter?,4,$200
+7,This company is the maker of the iPhone.,What is Samsung?,What is Microsoft?,What is Apple?,What is Google?,4,$400
+8,This virtual assistant by Amazon can help you shop and play music.,What is Siri?,What is Cortana?,What is Alexa?,What is Google Assistant?,4,$600
+9,This social media app is famous for its disappearing messages.,What is Facebook?,What is WhatsApp?,What is TikTok?,What is Snapchat?,5,$800
+10,This video streaming platform is home to shows like Stranger Things and The Witcher.,What is Hulu?,What is YouTube?,What is Netflix?,What is Disney+?,4,$1000
+11,This video game franchise features sports and was originally created by EA Sports.,What is FIFA?,What is NBA 2K?,What is Madden NFL?,What is Tony Hawk's Pro Skater?,4,$200
+12,This team won the 2023 NBA Championship.,What is the Boston Celtics?,What is the Miami Heat?,What is the Denver Nuggets?,What is the Golden State Warriors?,4,$400
+13,This football player is known for his legendary career with the New England Patriots.,Who is Tom Brady?,Who is Patrick Mahomes?,Who is Joe Burrow?,Who is Aaron Rodgers?,2,$600
+14,This Fortnite skin became one of the most popular during Chapter 2.,What is Jonesy?,What is Peely?,What is Midas?,What is Marshmello?,3,$800
+15,This team won the 2022 FIFA World Cup.,What is Brazil?,What is France?,What is Argentina?,What is Germany?,4,$1000
+16,This planet is the closest to the Sun.,What is Venus?,What is Earth?,What is Mercury?,What is Mars?,2,$200
+17,This element is the most abundant gas in Earth's atmosphere.,What is Oxygen?,What is Nitrogen?,What is Hydrogen?,What is Carbon Dioxide?,3,$400
+18,This space mission was the first to land humans on the Moon.,What is Apollo 11?,What is Apollo 13?,What is Apollo 17?,What is Gemini 8?,2,$600
+19,This is the smallest bone in the human body.,What is the femur?,What is the tibia?,What is the stapes?,What is the radius?,4,$800
+20,This planet has the most moons in our solar system.,What is Mars?,What is Jupiter?,What is Saturn?,What is Uranus?,4,$1000
+21,This fast food chain is known for its golden arches.,What is Burger King?,What is McDonald's?,What is Wendy's?,What is Taco Bell?,3,$200
+22,This popular soda brand features a red logo and the tagline "Taste the Feeling.",What is Pepsi?,What is Sprite?,What is Fanta?,What is Coca-Cola?,5,$400
+23,This type of sushi is typically served with raw fish on top of vinegared rice.,What is Tempura?,What is Sashimi?,What is Nigiri?,What is Maki?,4,$600
+24,The famous dessert Crème brûlée originates from this county.,What is France?,What is Italy?,What is Spain?,What is Brazil?,2,$800
+25,This fruit is known for being high in vitamin C and is typically eaten as a breakfast food.,What is an apple?,What is a mango?,What is a banana?,What is an orange?,5,$1000
