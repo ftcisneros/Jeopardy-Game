@@ -1,1 +1,3 @@
 username 15000
+placeholder 0
+placeholder 0
