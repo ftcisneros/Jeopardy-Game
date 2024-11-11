@@ -91,7 +91,7 @@
             <tr>
                 <th>Current Score</th>
             </tr>
-            
+
             <tr>
                 <td>
                 <?php
@@ -102,9 +102,11 @@
         </table>
     </div>
 
+
+    <div class="container">
     <form action="endgame.php" method="post">
         <input type="submit" name="endgame" value="End Game">
     </form>
-
+    </div>
 </body>
 </html>

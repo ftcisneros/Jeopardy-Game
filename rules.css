@@ -1,0 +1,38 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #3636cf;
+}
+
+.back {
+    display: flex;
+    font-size: larger;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+
+    z-index: 10; 
+}
+.back a{
+    color: gold;
+}
+.rules {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #dddddd;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #04042f;
+}
+.rules h1{
+    text-align: center;
+}
+
+
+
