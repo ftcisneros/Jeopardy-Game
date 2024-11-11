@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeopardy</title>
-    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="question.css">
 </head>
 <body>
 
@@ -74,23 +74,25 @@
     }
     ?>
 
-    <div>
-        <img src="logo/jeopardylogo.png" alt="Jeopardy logo">
-    </div>
-
-
-    <div class="">
-      <h1><?php echo $data[1]?></h1>
+    <div class="question-container">
+        <h1><?php echo "CATEGORY 1 • <span>" . htmlspecialchars($data[7]) . "</span>"; ?></h1>
+        <div>
+            <p><?php echo htmlspecialchars($data[1]); ?></p>
+        </div>
    
-    <form method="post">
-        <div class="question-container">
-            <h2> <?php echo $data[2] ?> <input type="radio" name="ans" value="2" /> </h2>
-            <h2> <?php echo $data[3] ?> <input type="radio" name="ans" value="3" /> </h2>
-            <h2> <?php echo $data[4] ?> <input type="radio" name="ans" value="4" /> </h2>
-            <h2> <?php echo $data[5] ?> <input type="radio" name="ans" value="5" /> </h2>
-         </div>
-         <input type="submit" value="Submit" class="button" />
-    </form>
+        <form method="post">
+            <div class="button-container">
+                <h2><input type="radio" name="ans" value="<?php echo htmlspecialchars($data[2]); ?>"> <?php echo htmlspecialchars($data[2]); ?></h2>
+                <h2><input type="radio" name="ans" value="<?php echo htmlspecialchars($data[3]); ?>"> <?php echo htmlspecialchars($data[3]); ?></h2>
+                <h2><input type="radio" name="ans" value="<?php echo htmlspecialchars($data[4]); ?>"> <?php echo htmlspecialchars($data[4]); ?></h2>
+                <h2><input type="radio" name="ans" value="<?php echo htmlspecialchars($data[5]); ?>"> <?php echo htmlspecialchars($data[5]); ?></h2>
+            </div>
+        
+            <div class="button-container">
+                <button class="button" type="submit">Submit answer</button>
+            </div>
+        </form>
     </div>
+
 </body>
 </html>
