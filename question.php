@@ -9,6 +9,7 @@
 <body>
 
     <?php
+    session_start();
     include('functions.php');
 
     $ptVals = [
@@ -22,10 +23,7 @@
     $data = array("1", "Question Text", "ans", "ans", "ans", "ans", "3",);
         // (Question ID, Question, Answer 1, Answer 2, Answer 3, Answer 4, Correct answer position)
 
-        $parameter = isset($_GET['question_id']) ? $_GET['question_id'] : null;
-
-    session_start();
-
+    $parameter = isset($_GET['question_id']) ? $_GET['question_id'] : null;
     $ansUnser = @$_SESSION['arrAns'];
     $arrAnswers = (array) unserializeIfNeeded($ansUnser);
 
