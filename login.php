@@ -1,12 +1,3 @@
-<?php
-    session_start();
-
-    if (isset($_SESSION['errorMessage'])) {
-        echo '<p style="color: red;">' . $_SESSION['errorMessage'] . '</p>';
-        unset($_SESSION['errorMessage']); 
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,5 +24,12 @@
             
 </form>
 
+<?php
+if (isset($_SESSION['errorMessage'])) {
+    echo '<div class="error-message">' . $_SESSION['errorMessage'] . '</div>';
+    unset($_SESSION['errorMessage']); 
+}
+?>
+</html>
 </body>
 </html>
