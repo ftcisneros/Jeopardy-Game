@@ -57,8 +57,17 @@
         $val = trim($data[7]);
         $index = $data[0];
 
-        //compare input to answer in data array
-        if ($answer == $data[6]){
+        // find selected answer position 
+        $selected_position = null;
+        for ($i = 2; $i <= 5; $i++) {
+            if ($data[$i] === $answer) {
+                $selected_position = $i;
+                break;
+            }
+        }
+
+        // compare input to answer in data array 
+        if ($selected_position == $data[6]) {
             $point = (float) @$ptVals[$val];
         } else {
             $point = -(float) @$ptVals[$val];
@@ -71,6 +80,7 @@
 
         $_SESSION['arrAns'] = serializeIfNeeded($arrAnswers);
         header('Location: categories.php');
+        exit;
     }
     ?>
 
