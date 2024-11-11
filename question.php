@@ -22,7 +22,8 @@
     $data = array("1", "Question Text", "ans", "ans", "ans", "ans", "3",);
         // (Question ID, Question, Answer 1, Answer 2, Answer 3, Answer 4, Correct answer position)
 
-    $parameter = $_SERVER['QUERY_STRING'];
+        $parameter = isset($_GET['question_id']) ? $_GET['question_id'] : null;
+
     session_start();
 
     $ansUnser = @$_SESSION['arrAns'];
@@ -85,7 +86,10 @@
     ?>
 
     <div class="question-container">
-        <h1><?php echo "CATEGORY 1 • <span>" . htmlspecialchars($data[7]) . "</span>"; ?></h1>
+        <?php
+            $category = isset($_GET['category']) ? htmlspecialchars($_GET['category']) : 'Unknown Category';
+        ?>
+        <h1><?php echo $category . " • <span>" . htmlspecialchars($data[7]) . "</span>"; ?></h1>
         <div>
             <p><?php echo htmlspecialchars($data[1]); ?></p>
         </div>

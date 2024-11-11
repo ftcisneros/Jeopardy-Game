@@ -50,39 +50,39 @@
             <th>Foods</th>
         </tr>
         <tr>
-            <td><a href="question.php?1">$200</a></td>
-            <td><a href="question.php?6">$200</a></td>
-            <td><a href="question.php?11">$200</a></td>
-            <td><a href="question.php?16">$200</a></td>
-            <td><a href="question.php?21">$200</a></td>
+            <td><a href="question.php?question_id=1&category=Pop%20Culture">$200</a></td>
+            <td><a href="question.php?question_id=6&category=Technology">$200</a></td>
+            <td><a href="question.php?question_id=11&category=Sports%20and%20Games">$200</a></td>
+            <td><a href="question.php?question_id=16&category=Science">$200</a></td>
+            <td><a href="question.php?question_id=21&category=Foods">$200</a></td>
         </tr>
         <tr>
-            <td><a href="question.php?2">$400</a></td>
-            <td><a href="question.php?7">$400</a></td>
-            <td><a href="question.php?12">$400</a></td>
-            <td><a href="question.php?17">$400</a></td>
-            <td><a href="question.php?22">$400</a></td>
+            <td><a href="question.php?question_id=2&category=Pop%20Culture">$400</a></td>
+            <td><a href="question.php?question_id=7&category=Technology">$400</a></td>
+            <td><a href="question.php?question_id=12&category=Sports%20and%20Games">$400</a></td>
+            <td><a href="question.php?question_id=17&category=Science">$400</a></td>
+            <td><a href="question.php?question_id=22&category=Foods">$400</a></td>
         </tr>
         <tr>
-            <td><a href="question.php?3">$600</a></td>
-            <td><a href="question.php?8">$600</a></td>
-            <td><a href="question.php?13">$600</a></td>
-            <td><a href="question.php?18">$600</a></td>
-            <td><a href="question.php?23">$600</a></td>
+            <td><a href="question.php?question_id=3&category=Pop%20Culture">$600</a></td>
+            <td><a href="question.php?question_id=8&category=Technology">$600</a></td>
+            <td><a href="question.php?question_id=13&category=Sports%20and%20Games">$600</a></td>
+            <td><a href="question.php?question_id=18&category=Science">$600</a></td>
+            <td><a href="question.php?question_id=23&category=Foods">$600</a></td>
         </tr>
         <tr>
-            <td><a href="question.php?4">$800</a></td>
-            <td><a href="question.php?9">$800</a></td>
-            <td><a href="question.php?14">$800</a></td>
-            <td><a href="question.php?19">$800</a></td>
-            <td><a href="question.php?24"> $800</a></td>
+            <td><a href="question.php?question_id=4&category=Pop%20Culture">$800</a></td>
+            <td><a href="question.php?question_id=9&category=Technology">$800</a></td>
+            <td><a href="question.php?question_id=14&category=Sports%20and%20Games">$800</a></td>
+            <td><a href="question.php?question_id=19&category=Science">$800</a></td>
+            <td><a href="question.php?question_id=24&category=Foods"> $800</a></td>
         </tr>
         <tr>
-            <td><a href="question.php?5">$1000</a></td>
-            <td><a href="question.php?10">$1000</a></td>
-            <td><a href="question.php?15">$1000</a></td>
-            <td><a href="question.php?20">$1000</a></td>
-            <td><a href="question.php?25">$1000</a></td>
+            <td><a href="question.php?question_id=5&category=Pop%20Culture">$1000</a></td>
+            <td><a href="question.php?question_id=10&category=Technology">$1000</a></td>
+            <td><a href="question.php?question_id=15&category=Sports%20and%20Games">$1000</a></td>
+            <td><a href="question.php?question_id=20&category=Science">$1000</a></td>
+            <td><a href="question.php?question_id=25&category=Foods">$1000</a></td>
         </tr>
     </table>
 
