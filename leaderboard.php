@@ -24,6 +24,7 @@ $topPlayers = array_slice($players, 0, 3);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaderboard</title>
+    <link rel="stylesheet" href="leaderboard.css">
 </head>
 <body>
     <h1>Leaderboard</h1>
@@ -48,6 +49,6 @@ $topPlayers = array_slice($players, 0, 3);
 
     </table>
     <br>
-    <a class="link" href ="logout.php">Logout</a>
+    <a class="button" href ="logout.php">Logout</a>
 </body>
 </html>
